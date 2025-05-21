@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- 
-    STEP 1
-    Write your Timeline Title between the <title> tags in the line below -->
-    <title>The Varsity Blues Scandal</title>
-    
-    <meta charset="utf-8">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRvVCXXoUzHO_jrfB8k9ix0NjLS0RlVE3j0YJbQ-_iwTy7YCUTrA40Sp-X9nIhOt7N0dQuhmWGCayn/pubhtml">
-    
-    <!--
-    STEP 2
-    Choose the font you want to use and write the corresponding name instead of 'default' in the line below -->
-    <link rel="stylesheet" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQRvVCXXoUzHO_jrfB8k9ix0NjLS0RlVE3j0YJbQ-_iwTy7YCUTrA40Sp-X9nIhOt7N0dQuhmWGCayn/pubhtml/css/fonts/font.montserrat-minion.css">
-    
+<head>
+  <meta charset="utf-8" />
+  <title>The Varsity Blues Scandal</title>
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/storyjs-embed.js"></script>
+  <style>
+    html, body {
+      margin: 0; padding: 0; height: 100%;
+    }
+    #timeline-embed {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="timeline-embed"></div>
+  <script>
+    var timeline = new TL.Timeline('timeline-embed',
+      'https://docs.google.com/spreadsheets/d/1uKqVCvEL2kmZaA6sXlWnIpM8XyNdAe2xB4WFM5zF_9c/pubhtml',
+      {
+        language: 'en',
+        timenav_position: 'bottom'
+      }
+    );
+  </script>
+</body>
+
     <!-- DO NOT CHANGE ANYTHING BELOW THIS LINE -->
 
     <style>
